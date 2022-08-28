@@ -1,0 +1,19 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "task-manager app to practice node and express",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Sagnik Chakraborty",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "mongoose": "6.5.3"
+  }
+}
